@@ -1,0 +1,58 @@
+
+.welcome{
+    background-image: url(../img/welcom.bg.jpg);
+    background-size: cover;
+
+    .welcome__content{
+        padding-top: 241px;
+        h2{
+            font-family: 'Yellowtail';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 65px;
+            letter-spacing: 0.36px;
+            text-transform: capitalize;
+            color: #7EB693;
+            padding-bottom: 14px;
+        }
+        h1{
+            font-family: $font-title;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 70px;    
+            line-height: 84px;
+            letter-spacing: 0.36px;
+            color: $main-color;
+            padding-bottom: 30px;
+        }
+        .welcome__content-btn{
+            padding-bottom: 250px;
+            // &::after{
+            //     content: "";
+            //     display: inline-block;
+            //     background-image: url(../img/welcom-btnarow.svg);
+            //     background-repeat: no-repeat;
+            //     width: 15px;
+            //     height: 11px;
+            //     background-color: #335B6B;
+            //     padding: 12px 12px;
+            //     border-radius: 50%;
+            // }
+          
+            a{
+                padding: 25px 71px 25px 33px;
+                background-color: #EFD372;
+                border-radius: 16px;
+                font-family: $font-title;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 19px;
+                line-height: 32px;
+                letter-spacing: 0.36px;
+                text-transform: capitalize;
+                color: $main-color;
+            }
+        }
+    }
+}

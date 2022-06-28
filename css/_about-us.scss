@@ -1,0 +1,60 @@
+
+.about-us{
+    background: #F9F8F8;
+    padding-bottom: 140px;
+    .container{
+        .about-us__content{
+            display: flex;
+            padding-top: 140px;
+
+
+            .about-us__btn{
+                padding-top: 50px;
+                a{
+                    padding: 25px 71px 25px 33px;
+                    border-radius: 16px;
+                    background-color: #274C5B;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 19px;
+                    line-height: 32px;
+                    letter-spacing: 0.6px;
+                    text-transform: capitalize;
+                    color: #FFFFFF;
+                }
+            }
+
+            .about-us__content-text{
+                padding-left: 30px;
+                h3{
+                    @include titel-yell;
+                }
+                h4{
+                    @include title-stak;
+                    padding-bottom: 22px;
+                }
+                p{
+                    @include text-stak;
+                }
+
+                .about-us__inner-box{
+                    display: flex;
+                    padding-top: 30px;
+                    .about-us__inner-box-text{
+                        padding-left: 20px;
+                    }
+                    h5{
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 25px;
+                        line-height: 35px;
+                        letter-spacing: 0.36px;
+                        color: #274C5B;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,67 @@
+
+
+.frut{
+    padding-top: 140px;
+    padding-bottom: 140px;
+
+    .frut__content{
+        display: flex;
+        justify-content: space-between;
+
+        .frut__content-box1{
+            .frut__content-text-2{
+                position: relative;
+                .frut__content-text-inner-2{
+                    position: absolute;
+                    bottom: 105px;
+                    left: 55px;
+
+                    h4{
+                        font-family: $font-title;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 40px;
+                        line-height: 52px;
+                        letter-spacing: 0.36px;
+                        color: white;
+                    }
+
+                    h3{
+                        font-family: 'Yellowtail';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 36px;
+                        line-height: 65px;
+                        letter-spacing: 0.36px;
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        .frut__content-box2{
+            .frut__content-text{
+                position: relative;
+                .frut__content-text-inner{
+                    position: absolute;
+                    bottom: 105px;
+                    left: 55px;
+
+                    h4{
+                    font-family: $font-title;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 40px;
+                    line-height: 52px;
+                    letter-spacing: 0.36px;
+                    color: #274C5B;
+                    }
+
+                    h3{
+                        @include titel-yell;
+                    }
+                }
+            }
+        }
+    }
+}

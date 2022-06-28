@@ -1,0 +1,59 @@
+$main-color: #274C5B;
+$text-p-color:#525C60;
+$main-fsize: 18px;
+$titel-size:45px;
+$font-title: 'Roboto';
+$font-text: 'Open Sans';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+@mixin title-stak {
+  font-size: $titel-size;
+  font-family: $font-title;
+  font-style: normal;
+  font-weight: 700;
+  color: $main-color;
+  line-height: 57px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+}
+
+@mixin text-stak {
+    font-size: $main-fsize;
+    font-family: $font-text;
+    font-style: normal;
+    font-weight: 400;
+    color: $text-p-color;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+}
+
+@mixin titel-yell {
+    font-family: 'Yellowtail';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    letter-spacing: 0.36px;
+    color: #7EB693;
+}
+
+
+.conatainer{
+    max-width: 1380px;
+    margin: auto;
+}

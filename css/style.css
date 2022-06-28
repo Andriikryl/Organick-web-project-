@@ -1,0 +1,261 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+
+.conatainer {
+  max-width: 1380px;
+  margin: auto;
+}
+
+.container {
+  max-width: 1380px;
+  margin: auto;
+}
+
+header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .header__cart {
+  display: flex;
+  align-items: center;
+  border: 1px solid #D4D4D4;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 30px;
+  padding: 7px 26px 7px 11px;
+}
+header .container .header__cart::before {
+  content: "";
+  display: inline-block;
+  background-image: url(../img/cart.svg);
+  width: 56px;
+  height: 56px;
+}
+header .container .header__cart a {
+  font-size: 18px;
+  font-family: "Roboto";
+  color: #274C5B;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.36px;
+  line-height: 29px;
+  padding-left: 10px;
+}
+header .container nav {
+  padding-right: 375px;
+}
+header .container nav ul {
+  display: flex;
+}
+header .container nav ul li {
+  padding-left: 40px;
+}
+header .container nav ul li a {
+  font-size: 18px;
+  font-family: "Roboto";
+  color: #274C5B;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.36px;
+  line-height: 32px;
+  transition: 0.2s;
+}
+header .container nav ul li a:hover {
+  color: #7EB693;
+}
+
+.welcome {
+  background-image: url(../img/welcom.bg.jpg);
+  background-size: cover;
+}
+.welcome .welcome__content {
+  padding-top: 241px;
+}
+.welcome .welcome__content h2 {
+  font-family: "Yellowtail";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #7EB693;
+  padding-bottom: 14px;
+}
+.welcome .welcome__content h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 84px;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+  padding-bottom: 30px;
+}
+.welcome .welcome__content .welcome__content-btn {
+  padding-bottom: 250px;
+}
+.welcome .welcome__content .welcome__content-btn a {
+  padding: 25px 71px 25px 33px;
+  background-color: #EFD372;
+  border-radius: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #274C5B;
+}
+
+.frut {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.frut .frut__content {
+  display: flex;
+  justify-content: space-between;
+}
+.frut .frut__content .frut__content-box1 .frut__content-text-2 {
+  position: relative;
+}
+.frut .frut__content .frut__content-box1 .frut__content-text-2 .frut__content-text-inner-2 {
+  position: absolute;
+  bottom: 105px;
+  left: 55px;
+}
+.frut .frut__content .frut__content-box1 .frut__content-text-2 .frut__content-text-inner-2 h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.36px;
+  color: white;
+}
+.frut .frut__content .frut__content-box1 .frut__content-text-2 .frut__content-text-inner-2 h3 {
+  font-family: "Yellowtail";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  color: white;
+}
+.frut .frut__content .frut__content-box2 .frut__content-text {
+  position: relative;
+}
+.frut .frut__content .frut__content-box2 .frut__content-text .frut__content-text-inner {
+  position: absolute;
+  bottom: 105px;
+  left: 55px;
+}
+.frut .frut__content .frut__content-box2 .frut__content-text .frut__content-text-inner h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+}
+.frut .frut__content .frut__content-box2 .frut__content-text .frut__content-text-inner h3 {
+  font-family: "Yellowtail";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  color: #7EB693;
+}
+
+.about-us {
+  background: #F9F8F8;
+  padding-bottom: 140px;
+}
+.about-us .container .about-us__content {
+  display: flex;
+  padding-top: 140px;
+}
+.about-us .container .about-us__content .about-us__btn {
+  padding-top: 50px;
+}
+.about-us .container .about-us__content .about-us__btn a {
+  padding: 25px 71px 25px 33px;
+  border-radius: 16px;
+  background-color: #274C5B;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: 0.6px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.about-us .container .about-us__content .about-us__content-text {
+  padding-left: 30px;
+}
+.about-us .container .about-us__content .about-us__content-text h3 {
+  font-family: "Yellowtail";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  color: #7EB693;
+}
+.about-us .container .about-us__content .about-us__content-text h4 {
+  font-size: 45px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  color: #274C5B;
+  line-height: 57px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  padding-bottom: 22px;
+}
+.about-us .container .about-us__content .about-us__content-text p {
+  font-size: 18px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  color: #525C60;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+}
+.about-us .container .about-us__content .about-us__content-text .about-us__inner-box {
+  display: flex;
+  padding-top: 30px;
+}
+.about-us .container .about-us__content .about-us__content-text .about-us__inner-box .about-us__inner-box-text {
+  padding-left: 20px;
+}
+.about-us .container .about-us__content .about-us__content-text .about-us__inner-box h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+}/*# sourceMappingURL=style.css.map */
