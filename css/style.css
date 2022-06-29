@@ -769,4 +769,35 @@ header .container nav ul li a:hover {
   letter-spacing: 0.36px;
   color: #525C60;
   padding-bottom: 10px;
+}
+
+.product-tipe {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: #EFF6F1;
+}
+.product-tipe .product-tipe__content {
+  display: flex;
+}
+.product-tipe .product-tipe__content .product-tipe__content-box-1 {
+  position: relative;
+  padding-right: 30px;
+}
+.product-tipe .product-tipe__content .product-tipe__content-box-1 .product-tipe__btn {
+  position: absolute;
+  bottom: calc(50% - 47.5px + 0.5px);
+  left: 90px;
+}
+.product-tipe .product-tipe__content .product-tipe__content-box-1 .product-tipe__btn a {
+  padding: 30px 79px;
+  background-color: #fff;
+  border-radius: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #274C5B;
 }/*# sourceMappingURL=style.css.map */

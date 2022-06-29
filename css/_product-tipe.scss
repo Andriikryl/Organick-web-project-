@@ -1,0 +1,30 @@
+.product-tipe{
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-color: #EFF6F1;
+    .product-tipe__content{
+        display: flex;
+        .product-tipe__content-box-1{
+            position: relative;
+            padding-right: 30px;
+            .product-tipe__btn{
+                position: absolute;
+                bottom: calc(50% - 95px/2 + 0.5px);
+                left: 90px;
+                a{
+                    padding: 30px 79px;
+                    background-color: #fff;
+                    border-radius: 20px;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 25px;
+                    line-height: 35px;
+                    text-align: center;
+                    letter-spacing: 0.36px;
+                    color: #274C5B;
+                }
+            }
+        }
+    }
+}
