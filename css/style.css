@@ -1,499 +1,558 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 li {
-  list-style: none; }
+  list-style: none;
+}
 
 a {
   text-decoration: none;
   display: inline-block;
-  color: inherit; }
+  color: inherit;
+}
 
 .conatainer {
   max-width: 1380px;
-  margin: auto; }
+  margin: auto;
+}
 
 .container {
   max-width: 1380px;
-  margin: auto; }
+  margin: auto;
+}
 
 header {
   padding-top: 40px;
-  padding-bottom: 40px; }
-  header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
-    header .container .header__cart {
-      display: flex;
-      align-items: center;
-      border: 1px solid #D4D4D4;
-      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-      border-radius: 30px;
-      padding: 7px 26px  7px 11px; }
-      header .container .header__cart::before {
-        content: "";
-        display: inline-block;
-        background-image: url(../img/cart.svg);
-        width: 56px;
-        height: 56px; }
-      header .container .header__cart a {
-        font-size: 18px;
-        font-family: "Roboto";
-        color: #274C5B;
-        font-style: normal;
-        font-weight: 400;
-        letter-spacing: 0.36px;
-        line-height: 29px;
-        padding-left: 10px; }
-    header .container nav {
-      padding-right: 375px; }
-      header .container nav ul {
-        display: flex; }
-        header .container nav ul li {
-          padding-left: 40px; }
-          header .container nav ul li a {
-            font-size: 18px;
-            font-family: "Roboto";
-            color: #274C5B;
-            font-style: normal;
-            font-weight: 400;
-            letter-spacing: 0.36px;
-            line-height: 32px;
-            transition: .2s; }
-            header .container nav ul li a:hover {
-              color: #7EB693; }
+  padding-bottom: 40px;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .header__cart {
+  display: flex;
+  align-items: center;
+  border: 1px solid #D4D4D4;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 30px;
+  padding: 7px 26px 7px 11px;
+}
+header .container .header__cart::before {
+  content: "";
+  display: inline-block;
+  background-image: url(../img/cart.svg);
+  width: 56px;
+  height: 56px;
+}
+header .container .header__cart a {
+  font-size: 18px;
+  font-family: "Roboto";
+  color: #274C5B;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.36px;
+  line-height: 29px;
+  padding-left: 10px;
+}
+header .container nav {
+  padding-right: 375px;
+}
+header .container nav ul {
+  display: flex;
+}
+header .container nav ul li {
+  padding-left: 40px;
+}
+header .container nav ul li a {
+  font-size: 18px;
+  font-family: "Roboto";
+  color: #274C5B;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.36px;
+  line-height: 32px;
+  transition: 0.2s;
+}
+header .container nav ul li a:hover {
+  color: #7EB693;
+}
 
 .welcome {
   background-image: url(../img/welcom.bg.jpg);
-  background-size: cover; }
-  .welcome .welcome__content {
-    padding-top: 241px; }
-    .welcome .welcome__content h2 {
-      font-family: 'Yellowtail';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 36px;
-      line-height: 65px;
-      letter-spacing: 0.36px;
-      text-transform: capitalize;
-      color: #7EB693;
-      padding-bottom: 14px; }
-    .welcome .welcome__content h1 {
-      font-family: "Roboto";
-      font-style: normal;
-      font-weight: 700;
-      font-size: 70px;
-      line-height: 84px;
-      letter-spacing: 0.36px;
-      color: #274C5B;
-      padding-bottom: 30px; }
-    .welcome .welcome__content .welcome__content-btn {
-      padding-bottom: 250px; }
-      .welcome .welcome__content .welcome__content-btn a {
-        padding: 25px 71px 25px 33px;
-        background-color: #EFD372;
-        border-radius: 16px;
-        font-family: "Roboto";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 19px;
-        line-height: 32px;
-        letter-spacing: 0.36px;
-        text-transform: capitalize;
-        color: #274C5B; }
+  background-size: cover;
+}
+.welcome .welcome__content {
+  padding-top: 241px;
+}
+.welcome .welcome__content h2 {
+  font-family: "Yellowtail";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #7EB693;
+  padding-bottom: 14px;
+}
+.welcome .welcome__content h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 84px;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+  padding-bottom: 30px;
+}
+.welcome .welcome__content .welcome__content-btn {
+  padding-bottom: 250px;
+}
+.welcome .welcome__content .welcome__content-btn a {
+  padding: 25px 71px 25px 33px;
+  background-color: #EFD372;
+  border-radius: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #274C5B;
+}
 
 .frut {
   padding-top: 140px;
-  padding-bottom: 140px; }
-  .frut .frut__content {
-    display: flex;
-    justify-content: space-between; }
-    .frut .frut__content .frut__content-box1 .frut__content-text-2 {
-      position: relative; }
-      .frut .frut__content .frut__content-box1 .frut__content-text-2 .frut__content-text-inner-2 {
-        position: absolute;
-        bottom: 105px;
-        left: 55px; }
-        .frut .frut__content .frut__content-box1 .frut__content-text-2 .frut__content-text-inner-2 h4 {
-          font-family: "Roboto";
-          font-style: normal;
-          font-weight: 400;
-          font-size: 40px;
-          line-height: 52px;
-          letter-spacing: 0.36px;
-          color: white; }
-        .frut .frut__content .frut__content-box1 .frut__content-text-2 .frut__content-text-inner-2 h3 {
-          font-family: 'Yellowtail';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 36px;
-          line-height: 65px;
-          letter-spacing: 0.36px;
-          color: white; }
-    .frut .frut__content .frut__content-box2 .frut__content-text {
-      position: relative; }
-      .frut .frut__content .frut__content-box2 .frut__content-text .frut__content-text-inner {
-        position: absolute;
-        bottom: 105px;
-        left: 55px; }
-        .frut .frut__content .frut__content-box2 .frut__content-text .frut__content-text-inner h4 {
-          font-family: "Roboto";
-          font-style: normal;
-          font-weight: 400;
-          font-size: 40px;
-          line-height: 52px;
-          letter-spacing: 0.36px;
-          color: #274C5B; }
-        .frut .frut__content .frut__content-box2 .frut__content-text .frut__content-text-inner h3 {
-          font-family: 'Yellowtail';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 36px;
-          line-height: 65px;
-          letter-spacing: 0.36px;
-          color: #7EB693; }
+  padding-bottom: 140px;
+}
+.frut .frut__content {
+  display: flex;
+  justify-content: space-between;
+}
+.frut .frut__content .frut__content-box1 .frut__content-text-2 {
+  position: relative;
+}
+.frut .frut__content .frut__content-box1 .frut__content-text-2 .frut__content-text-inner-2 {
+  position: absolute;
+  bottom: 105px;
+  left: 55px;
+}
+.frut .frut__content .frut__content-box1 .frut__content-text-2 .frut__content-text-inner-2 h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.36px;
+  color: white;
+}
+.frut .frut__content .frut__content-box1 .frut__content-text-2 .frut__content-text-inner-2 h3 {
+  font-family: "Yellowtail";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  color: white;
+}
+.frut .frut__content .frut__content-box2 .frut__content-text {
+  position: relative;
+}
+.frut .frut__content .frut__content-box2 .frut__content-text .frut__content-text-inner {
+  position: absolute;
+  bottom: 105px;
+  left: 55px;
+}
+.frut .frut__content .frut__content-box2 .frut__content-text .frut__content-text-inner h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+}
+.frut .frut__content .frut__content-box2 .frut__content-text .frut__content-text-inner h3 {
+  font-family: "Yellowtail";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  color: #7EB693;
+}
 
 .about-us {
   background: #F9F8F8;
-  padding-bottom: 140px; }
-  .about-us .container .about-us__content {
-    display: flex;
-    padding-top: 140px; }
-    .about-us .container .about-us__content .about-us__btn {
-      padding-top: 50px; }
-      .about-us .container .about-us__content .about-us__btn a {
-        padding: 25px 71px 25px 33px;
-        border-radius: 16px;
-        background-color: #274C5B;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 19px;
-        line-height: 32px;
-        letter-spacing: 0.6px;
-        text-transform: capitalize;
-        color: #FFFFFF; }
-    .about-us .container .about-us__content .about-us__content-text {
-      padding-left: 30px; }
-      .about-us .container .about-us__content .about-us__content-text h3 {
-        font-family: 'Yellowtail';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 36px;
-        line-height: 65px;
-        letter-spacing: 0.36px;
-        color: #7EB693; }
-      .about-us .container .about-us__content .about-us__content-text h4 {
-        font-size: 45px;
-        font-family: "Roboto";
-        font-style: normal;
-        font-weight: 700;
-        color: #274C5B;
-        line-height: 57px;
-        letter-spacing: 0.36px;
-        text-transform: capitalize;
-        padding-bottom: 22px; }
-      .about-us .container .about-us__content .about-us__content-text p {
-        font-size: 18px;
-        font-family: "Open Sans";
-        font-style: normal;
-        font-weight: 400;
-        color: #525C60;
-        line-height: 32px;
-        letter-spacing: 0.36px; }
-      .about-us .container .about-us__content .about-us__content-text .about-us__inner-box {
-        display: flex;
-        padding-top: 30px; }
-        .about-us .container .about-us__content .about-us__content-text .about-us__inner-box .about-us__inner-box-text {
-          padding-left: 20px; }
-        .about-us .container .about-us__content .about-us__content-text .about-us__inner-box h5 {
-          font-family: 'Roboto';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 25px;
-          line-height: 35px;
-          letter-spacing: 0.36px;
-          color: #274C5B; }
+  padding-bottom: 140px;
+}
+.about-us .container .about-us__content {
+  display: flex;
+  padding-top: 140px;
+}
+.about-us .container .about-us__content .about-us__btn {
+  padding-top: 50px;
+}
+.about-us .container .about-us__content .about-us__btn a {
+  padding: 25px 71px 25px 33px;
+  border-radius: 16px;
+  background-color: #274C5B;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: 0.6px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.about-us .container .about-us__content .about-us__content-text {
+  padding-left: 30px;
+}
+.about-us .container .about-us__content .about-us__content-text h3 {
+  font-family: "Yellowtail";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  color: #7EB693;
+}
+.about-us .container .about-us__content .about-us__content-text h4 {
+  font-size: 45px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  color: #274C5B;
+  line-height: 57px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  padding-bottom: 22px;
+}
+.about-us .container .about-us__content .about-us__content-text p {
+  font-size: 18px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  color: #525C60;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+}
+.about-us .container .about-us__content .about-us__content-text .about-us__inner-box {
+  display: flex;
+  padding-top: 30px;
+}
+.about-us .container .about-us__content .about-us__content-text .about-us__inner-box .about-us__inner-box-text {
+  padding-left: 20px;
+}
+.about-us .container .about-us__content .about-us__content-text .about-us__inner-box h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+}
 
 .products .container {
   padding-top: 120px;
-  padding-bottom: 120px; }
-  .products .container h3 {
-    font-family: 'Yellowtail';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 65px;
-    letter-spacing: 0.36px;
-    color: #7EB693;
-    text-align: center; }
-  .products .container h4 {
-    font-size: 45px;
-    font-family: "Roboto";
-    font-style: normal;
-    font-weight: 700;
-    color: #274C5B;
-    line-height: 57px;
-    letter-spacing: 0.36px;
-    text-transform: capitalize;
-    text-align: center;
-    padding-bottom: 42px; }
-  .products .container .products__content {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px; }
-    .products .container .products__content .products__content-tipes {
-      background-color: #F9F8F8;
-      width: 447px;
-      padding: 30px 30px;
-      border-radius: 30px; }
-      .products .container .products__content .products__content-tipes .products__content-staf a {
-        padding: 5px 20px;
-        border-radius: 8px;
-        background-color: #274C5B;
-        font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 15px;
-        line-height: 27px;
-        letter-spacing: 0.36px;
-        color: #FFFFFF; }
-      .products .container .products__content .products__content-tipes h5 {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 22px;
-        line-height: 35px;
-        letter-spacing: 0.36px;
-        color: #274C5B;
-        padding-bottom: 11px; }
-      .products .container .products__content .products__content-tipes .star__box {
-        display: flex;
-        align-items: center;
-        border-top: 1px solid #B8B8B8;
-        padding-top: 10px; }
-        .products .container .products__content .products__content-tipes .star__box .star__box-1 {
-          font-family: 'Open Sans';
-          font-style: normal;
-          font-weight: 400;
-          font-size: 17px;
-          line-height: 32px;
-          letter-spacing: 0.36px;
+  padding-bottom: 120px;
+}
+.products .container h3 {
+  font-family: "Yellowtail";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  color: #7EB693;
+  text-align: center;
+}
+.products .container h4 {
+  font-size: 45px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  color: #274C5B;
+  line-height: 57px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  text-align: center;
+  padding-bottom: 42px;
+}
+.products .container .products__content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.products .container .products__content .products__content-tipes {
+  background-color: #F9F8F8;
+  width: 447px;
+  padding: 30px 30px;
+  border-radius: 30px;
+}
+.products .container .products__content .products__content-tipes .products__content-staf a {
+  padding: 5px 20px;
+  border-radius: 8px;
+  background-color: #274C5B;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 0.36px;
+  color: #FFFFFF;
+}
+.products .container .products__content .products__content-tipes h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 35px;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+  padding-bottom: 11px;
+}
+.products .container .products__content .products__content-tipes .star__box {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #B8B8B8;
+  padding-top: 10px;
+}
+.products .container .products__content .products__content-tipes .star__box .star__box-1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  -webkit-text-decoration-line: line-through;
           text-decoration-line: line-through;
-          color: #B8B8B8; }
-        .products .container .products__content .products__content-tipes .star__box .star__box-2 {
-          font-family: 'Open Sans';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 18px;
-          line-height: 32px;
-          letter-spacing: 0.36px;
-          color: #274C5B;
-          padding-left: 10px; }
-        .products .container .products__content .products__content-tipes .star__box .rating {
-          border: none;
-          padding-left: 80px; }
-          .products .container .products__content .products__content-tipes .star__box .rating .reting__group {
-            position: relative;
-            width: 13.92px;
-            height: 12.97px;
-            background-image: url(../img/off.svg);
-            background-size: 12.97px auto;
-            background-repeat: repeat-x; }
-            .products .container .products__content .products__content-tipes .star__box .rating .reting__group .rating__star {
-              position: absolute;
-              top: 0;
-              left: 0;
-              height: 12.97px;
-              background-size: 12.97px auto;
-              background-repeat: repeat-x;
-              font-size: inherit;
-              -webkit-appearance: none;
-              -moz-appearance: none;
-              appearance: none; }
-              .products .container .products__content .products__content-tipes .star__box .rating .reting__group .rating__star:focus {
-                outline: none; }
-              .products .container .products__content .products__content-tipes .star__box .rating .reting__group .rating__star:checked, .products .container .products__content .products__content-tipes .star__box .rating .reting__group .rating__star:hover {
-                background-image: url(../img/start.svg); }
-              .products .container .products__content .products__content-tipes .star__box .rating .reting__group .rating__star:nth-of-type(1) {
-                z-index: 5;
-                width: 12.97px; }
-              .products .container .products__content .products__content-tipes .star__box .rating .reting__group .rating__star:nth-of-type(2) {
-                z-index: 4;
-                width: 24.97px; }
-              .products .container .products__content .products__content-tipes .star__box .rating .reting__group .rating__star:nth-of-type(3) {
-                z-index: 3;
-                width: 36.97px; }
-              .products .container .products__content .products__content-tipes .star__box .rating .reting__group .rating__star:nth-of-type(4) {
-                z-index: 2;
-                width: 48.97px; }
-              .products .container .products__content .products__content-tipes .star__box .rating .reting__group .rating__star:nth-of-type(5) {
-                z-index: 1;
-                width: 64.97px; }
+  color: #B8B8B8;
+}
+.products .container .products__content .products__content-tipes .star__box .star__box-2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+  padding-left: 10px;
+}
+.products .container .products__content .products__content-tipes .star__box .rating {
+  border: none;
+  padding-left: 80px;
+}
+.products .container .products__content .products__content-tipes .star__box .rating .reting__group {
+  position: relative;
+  width: 13.92px;
+  height: 12.97px;
+  background-image: url(../img/off.svg);
+  background-size: 12.97px auto;
+  background-repeat: repeat-x;
+}
+.products .container .products__content .products__content-tipes .star__box .rating .reting__group .rating__star {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 12.97px;
+  background-size: 12.97px auto;
+  background-repeat: repeat-x;
+  font-size: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.products .container .products__content .products__content-tipes .star__box .rating .reting__group .rating__star:focus {
+  outline: none;
+}
+.products .container .products__content .products__content-tipes .star__box .rating .reting__group .rating__star:checked, .products .container .products__content .products__content-tipes .star__box .rating .reting__group .rating__star:hover {
+  background-image: url(../img/start.svg);
+}
+.products .container .products__content .products__content-tipes .star__box .rating .reting__group .rating__star:nth-of-type(1) {
+  z-index: 5;
+  width: 12.97px;
+}
+.products .container .products__content .products__content-tipes .star__box .rating .reting__group .rating__star:nth-of-type(2) {
+  z-index: 4;
+  width: 24.97px;
+}
+.products .container .products__content .products__content-tipes .star__box .rating .reting__group .rating__star:nth-of-type(3) {
+  z-index: 3;
+  width: 36.97px;
+}
+.products .container .products__content .products__content-tipes .star__box .rating .reting__group .rating__star:nth-of-type(4) {
+  z-index: 2;
+  width: 48.97px;
+}
+.products .container .products__content .products__content-tipes .star__box .rating .reting__group .rating__star:nth-of-type(5) {
+  z-index: 1;
+  width: 64.97px;
+}
 
 .customers {
   background-image: url(../img/customer.bg.png);
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover; }
-  .customers .customers__data {
-    padding-top: 100px;
-    padding-bottom: 150px;
-    display: flex;
-    justify-content: center;
-    border-top: 1px solid #E0E0E0; }
-    .customers .customers__data .custopmer__data-box {
-      width: 250px;
-      height: 250px;
-      background-color: #F1F1F1;
-      border-radius: 50%;
-      border: 6px solid #7EB693;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-right: 30px; }
-      .customers .customers__data .custopmer__data-box ul li {
-        font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 32px;
-        text-align: center;
-        letter-spacing: 0.36px;
-        color: #274C5B; }
-        .customers .customers__data .custopmer__data-box ul li span {
-          font-family: 'Roboto';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 42px;
-          line-height: 55px;
-          text-align: center;
-          letter-spacing: 0.36px;
-          color: #274C5B; }
-  .customers .customers__content {
-    padding-top: 130px; }
-    .customers .customers__content h3 {
-      font-family: 'Yellowtail';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 36px;
-      line-height: 65px;
-      letter-spacing: 0.36px;
-      color: #7EB693;
-      text-align: center; }
-    .customers .customers__content h4 {
-      font-size: 45px;
-      font-family: "Roboto";
-      font-style: normal;
-      font-weight: 700;
-      color: #274C5B;
-      line-height: 57px;
-      letter-spacing: 0.36px;
-      text-transform: capitalize;
-      text-align: center;
-      padding-bottom: 60px; }
-    .customers .customers__content .customers__content-face {
-      display: flex;
-      justify-content: center;
-      padding-bottom: 20px; }
-    .customers .customers__content .rating-2 {
-      border: none;
-      display: flex;
-      justify-content: center;
-      padding-right: 40px;
-      padding-bottom: 34px; }
-      .customers .customers__content .rating-2 .reting__group-2 {
-        position: relative;
-        width: 13.92px;
-        height: 12.97px;
-        background-image: url(../img/off.svg);
-        background-size: 12.97px auto;
-        background-repeat: repeat-x; }
-        .customers .customers__content .rating-2 .reting__group-2 .rating__star-2 {
-          position: absolute;
-          top: 0;
-          left: 0;
-          height: 12.97px;
-          background-size: 12.97px auto;
-          background-repeat: repeat-x;
-          font-size: inherit;
-          -webkit-appearance: none;
-          -moz-appearance: none;
-          appearance: none; }
-          .customers .customers__content .rating-2 .reting__group-2 .rating__star-2:focus {
-            outline: none; }
-          .customers .customers__content .rating-2 .reting__group-2 .rating__star-2:checked, .customers .customers__content .rating-2 .reting__group-2 .rating__star-2:hover {
-            background-image: url(../img/start.svg); }
-          .customers .customers__content .rating-2 .reting__group-2 .rating__star-2:nth-of-type(1) {
-            z-index: 5;
-            width: 12.97px; }
-          .customers .customers__content .rating-2 .reting__group-2 .rating__star-2:nth-of-type(2) {
-            z-index: 4;
-            width: 24.97px; }
-          .customers .customers__content .rating-2 .reting__group-2 .rating__star-2:nth-of-type(3) {
-            z-index: 3;
-            width: 36.97px; }
-          .customers .customers__content .rating-2 .reting__group-2 .rating__star-2:nth-of-type(4) {
-            z-index: 2;
-            width: 48.97px; }
-          .customers .customers__content .rating-2 .reting__group-2 .rating__star-2:nth-of-type(5) {
-            z-index: 1;
-            width: 64.97px; }
-    .customers .customers__content p {
-      font-family: 'Open Sans';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 32px;
-      text-align: center;
-      letter-spacing: 0.36px;
-      color: #525C60;
-      padding-bottom: 23px; }
-    .customers .customers__content h5 {
-      font-family: 'Roboto';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 26px;
-      line-height: 34px;
-      text-align: center;
-      letter-spacing: 0.36px;
-      color: #274C5B; }
-    .customers .customers__content h6 {
-      font-family: 'Open Sans';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 27px;
-      text-align: center;
-      letter-spacing: 0.36px;
-      color: #525C60;
-      padding-bottom: 96px; }
-
-.offer {
-  background-color: #274C5B; }
-  .offer .offer__titel {
-    padding-top: 100px;
-    display: flex;
-    justify-content: space-between; }
-    .offer .offer__titel .offer__titel-text h3 {
-      font-family: 'Yellowtail';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 36px;
-      line-height: 65px;
-      letter-spacing: 0.36px;
-      color: #7EB693; }
-    .offer .offer__titel .offer__titel-text h4 {
-      font-size: 45px;
-      font-family: "Roboto";
-      font-style: normal;
-      font-weight: 700;
-      color: #274C5B;
-      line-height: 57px;
-      letter-spacing: 0.36px;
-      text-transform: capitalize; }
-
-/*# sourceMappingURL=style.css.map */
+  background-size: cover;
+}
+.customers .customers__data {
+  padding-top: 100px;
+  padding-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #E0E0E0;
+}
+.customers .customers__data .custopmer__data-box {
+  width: 250px;
+  height: 250px;
+  background-color: #F1F1F1;
+  border-radius: 50%;
+  border: 6px solid #7EB693;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+.customers .customers__data .custopmer__data-box ul li {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+}
+.customers .customers__data .custopmer__data-box ul li span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 55px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+}
+.customers .customers__content {
+  padding-top: 130px;
+}
+.customers .customers__content h3 {
+  font-family: "Yellowtail";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  color: #7EB693;
+  text-align: center;
+}
+.customers .customers__content h4 {
+  font-size: 45px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  color: #274C5B;
+  line-height: 57px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.customers .customers__content .customers__content-face {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.customers .customers__content .rating-2 {
+  border: none;
+  display: flex;
+  justify-content: center;
+  padding-right: 40px;
+  padding-bottom: 34px;
+}
+.customers .customers__content .rating-2 .reting__group-2 {
+  position: relative;
+  width: 13.92px;
+  height: 12.97px;
+  background-image: url(../img/off.svg);
+  background-size: 12.97px auto;
+  background-repeat: repeat-x;
+}
+.customers .customers__content .rating-2 .reting__group-2 .rating__star-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 12.97px;
+  background-size: 12.97px auto;
+  background-repeat: repeat-x;
+  font-size: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.customers .customers__content .rating-2 .reting__group-2 .rating__star-2:focus {
+  outline: none;
+}
+.customers .customers__content .rating-2 .reting__group-2 .rating__star-2:checked, .customers .customers__content .rating-2 .reting__group-2 .rating__star-2:hover {
+  background-image: url(../img/start.svg);
+}
+.customers .customers__content .rating-2 .reting__group-2 .rating__star-2:nth-of-type(1) {
+  z-index: 5;
+  width: 12.97px;
+}
+.customers .customers__content .rating-2 .reting__group-2 .rating__star-2:nth-of-type(2) {
+  z-index: 4;
+  width: 24.97px;
+}
+.customers .customers__content .rating-2 .reting__group-2 .rating__star-2:nth-of-type(3) {
+  z-index: 3;
+  width: 36.97px;
+}
+.customers .customers__content .rating-2 .reting__group-2 .rating__star-2:nth-of-type(4) {
+  z-index: 2;
+  width: 48.97px;
+}
+.customers .customers__content .rating-2 .reting__group-2 .rating__star-2:nth-of-type(5) {
+  z-index: 1;
+  width: 64.97px;
+}
+.customers .customers__content p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #525C60;
+  padding-bottom: 23px;
+}
+.customers .customers__content h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+}
+.customers .customers__content h6 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #525C60;
+  padding-bottom: 96px;
+}/*# sourceMappingURL=style.css.map */
