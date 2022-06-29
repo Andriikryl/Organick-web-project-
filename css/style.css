@@ -395,4 +395,168 @@ header .container nav ul li a:hover {
 .products .container .products__content .products__content-tipes .star__box .rating .reting__group .rating__star:nth-of-type(5) {
   z-index: 1;
   width: 64.97px;
+}
+
+.customers {
+  background-image: url(../img/customer.bg.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.customers .customers__data {
+  padding-top: 100px;
+  padding-bottom: 150px;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #E0E0E0;
+}
+.customers .customers__data .custopmer__data-box {
+  width: 250px;
+  height: 250px;
+  background-color: #F1F1F1;
+  border-radius: 50%;
+  border: 6px solid #7EB693;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+.customers .customers__data .custopmer__data-box ul li {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+}
+.customers .customers__data .custopmer__data-box ul li span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 55px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+}
+.customers .customers__content {
+  padding-top: 130px;
+}
+.customers .customers__content h3 {
+  font-family: "Yellowtail";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  color: #7EB693;
+  text-align: center;
+}
+.customers .customers__content h4 {
+  font-size: 45px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  color: #274C5B;
+  line-height: 57px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.customers .customers__content .customers__content-face {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.customers .customers__content .rating-2 {
+  border: none;
+  display: flex;
+  justify-content: center;
+  padding-right: 40px;
+  padding-bottom: 34px;
+}
+.customers .customers__content .rating-2 .reting__group-2 {
+  position: relative;
+  width: 13.92px;
+  height: 12.97px;
+  background-image: url(../img/off.svg);
+  background-size: 12.97px auto;
+  background-repeat: repeat-x;
+}
+.customers .customers__content .rating-2 .reting__group-2 .rating__star-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 12.97px;
+  background-size: 12.97px auto;
+  background-repeat: repeat-x;
+  font-size: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.customers .customers__content .rating-2 .reting__group-2 .rating__star-2:focus {
+  outline: none;
+}
+.customers .customers__content .rating-2 .reting__group-2 .rating__star-2:checked, .customers .customers__content .rating-2 .reting__group-2 .rating__star-2:hover {
+  background-image: url(../img/start.svg);
+}
+.customers .customers__content .rating-2 .reting__group-2 .rating__star-2:nth-of-type(1) {
+  z-index: 5;
+  width: 12.97px;
+}
+.customers .customers__content .rating-2 .reting__group-2 .rating__star-2:nth-of-type(2) {
+  z-index: 4;
+  width: 24.97px;
+}
+.customers .customers__content .rating-2 .reting__group-2 .rating__star-2:nth-of-type(3) {
+  z-index: 3;
+  width: 36.97px;
+}
+.customers .customers__content .rating-2 .reting__group-2 .rating__star-2:nth-of-type(4) {
+  z-index: 2;
+  width: 48.97px;
+}
+.customers .customers__content .rating-2 .reting__group-2 .rating__star-2:nth-of-type(5) {
+  z-index: 1;
+  width: 64.97px;
+}
+.customers .customers__content p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #525C60;
+  padding-bottom: 23px;
+}
+.customers .customers__content h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+}
+.customers .customers__content h6 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #525C60;
+  padding-bottom: 96px;
+}
+
+.offer {
+  background-color: #274C5B;
 }/*# sourceMappingURL=style.css.map */
