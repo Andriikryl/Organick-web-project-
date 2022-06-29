@@ -800,4 +800,122 @@ header .container nav ul li a:hover {
   text-align: center;
   letter-spacing: 0.36px;
   color: #274C5B;
+}
+
+.news {
+  padding-top: 130px;
+  padding-bottom: 100px;
+}
+.news .container .news__content {
+  display: flex;
+  justify-content: space-between;
+}
+.news .container .news__content .news__content-box-1 {
+  position: relative;
+}
+.news .container .news__content .news__content-box-1 .news__content-box-text {
+  position: absolute;
+  bottom: -50px;
+  left: 25px;
+  background-color: #fff;
+  box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.14);
+  padding: 50px 50px;
+  border-radius: 30px;
+}
+.news .container .news__content .news__content-box-1 .news__content-box-text h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23px;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+  padding-bottom: 10px;
+}
+.news .container .news__content .news__content-box-1 .news__content-box-text h5::before {
+  content: "";
+  background-image: url(../img/news.people.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 18px;
+  height: 20px;
+  padding-right: 10px;
+}
+.news .container .news__content .news__content-box-1 .news__content-box-text h6 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+  padding-bottom: 38px;
+}
+.news .container .news__content .news__content-box-1 .news__content-box-text p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  color: #525C60;
+  padding-bottom: 12px;
+}
+.news .container .news__content .news__content-box-1 .news__content-box-text .news__content-box-text-btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.36px;
+  color: #274C5B;
+}
+.news .container .news__content .news__content-box-1 .news__content-box-text .news__content-box-text-btn a::after {
+  content: "";
+  background-image: url(../img/news.arow.svg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  position: relative;
+  left: 10px;
+  top: 4px;
+}
+.news .container h3 {
+  font-family: "Yellowtail";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  color: #7EB693;
+}
+.news .container .news__main-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 104px;
+}
+.news .container .news__main-title h4 {
+  font-size: 45px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  color: #274C5B;
+  line-height: 57px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+}
+.news .container .news__main-title .news__main-title-btn a {
+  padding: 25px 71px 25px 33px;
+  border: 1px solid #274C5B;
+  border-radius: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.4px;
+  text-transform: capitalize;
+  color: #274C5B;
 }/*# sourceMappingURL=style.css.map */
