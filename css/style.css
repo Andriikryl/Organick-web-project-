@@ -709,4 +709,64 @@ header .container nav ul li a:hover {
   letter-spacing: 0.36px;
   text-transform: capitalize;
   color: #FFFFFF;
+}
+
+.farm-home {
+  background-image: url(../img/farm:house.jpg);
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+.farm-home .farm-home__content {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.farm-home .farm-home__content .farm-home__box {
+  background-color: #fff;
+  padding: 40px 40px 55px 60px;
+  border-radius: 30px 0px 0px 30px;
+  position: relative;
+  left: 300px;
+}
+.farm-home .farm-home__content .farm-home__box h3 {
+  font-family: "Yellowtail";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  color: #7EB693;
+}
+.farm-home .farm-home__content .farm-home__box h4 {
+  font-size: 45px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  color: #274C5B;
+  line-height: 57px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  padding-bottom: 30px;
+}
+.farm-home .farm-home__content .farm-home__box h5 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #274C5B;
+  padding-bottom: 10px;
+}
+.farm-home .farm-home__content .farm-home__box p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  color: #525C60;
+  padding-bottom: 10px;
 }/*# sourceMappingURL=style.css.map */
