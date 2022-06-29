@@ -559,4 +559,28 @@ header .container nav ul li a:hover {
 
 .offer {
   background-color: #274C5B;
+}
+.offer .offer__titel {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.offer .offer__titel .offer__titel-text h3 {
+  font-family: "Yellowtail";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 65px;
+  letter-spacing: 0.36px;
+  color: #7EB693;
+}
+.offer .offer__titel .offer__titel-text h4 {
+  font-size: 45px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  color: #274C5B;
+  line-height: 57px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
 }/*# sourceMappingURL=style.css.map */
